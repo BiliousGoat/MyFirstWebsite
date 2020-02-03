@@ -5,6 +5,6 @@ document.getElementById("MyButton").onclick = () => {
 	anotherFunctionHello(document.getElementById("UseThisDiv"))
 }
 
-function displayFirstNameFunction (namey, namie) {
-	document.getElementById("UseThisDiv").innerHTML = "Hello there: " + namey + " " + namie
+function displayFirstNameFunction (fName, lName) {
+	document.getElementById("UseThisDiv").innerHTML = "Hello there: " + fName + " " + lName
 }
