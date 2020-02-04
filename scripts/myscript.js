@@ -9,5 +9,3 @@ document.getElementById("MyButton").onclick = () => {
 function displayFirstNameFunction (fName, lName) {
 	document.getElementById("UseThisDiv").innerHTML = "Hello there: " + fName + " " + lName
 }
-
-document.getElementById("UseThisDiv").innerHTML = "Hello"
